@@ -3,15 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:padding="@dimen/padding"
+        android:orientation="horizontal"
+        android:background="@color/green">
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,6 +29,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin20"
+        android:layout_marginRight="@dimen/margin20"
         android:height="48dp"
         android:hint="@string/hintMail"
         android:textSize="30sp"
@@ -38,6 +38,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin20"
+        android:layout_marginRight="@dimen/margin20"
         android:height="48dp"
         android:hint="@string/hintPassword"
         android:textSize="30sp"
@@ -45,8 +47,10 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin20"
+        android:layout_marginRight="@dimen/margin20"
         android:height="48dp"
-        android:background=""
+        android:background="@color/blueish"
         android:text="@string/login"/>
 
 </LinearLayout>
