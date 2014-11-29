@@ -11,9 +11,9 @@
         android:background="@color/green">
         <ImageButton
             android:layout_width="@dimen/default_icon_size"
+            android:src="@drawable/ico_actionbar_lunchtime"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/ico_actionbar_lunchtime"
             android:background="@null"/>
         <TextView
             android:layout_width="wrap_content"
@@ -38,6 +38,7 @@
             android:src="@drawable/img_login_lunchtime"/>
 
         <EditText
+            android:id="@+id/login_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hintMail"
@@ -45,6 +46,7 @@
             />
 
         <EditText
+            android:id="@+id/password_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hintPassword"
@@ -52,6 +54,7 @@
             />
 
         <Button
+            android:id="@+id/login_btn"
             android:layout_width="match_parent"
             android:layout_height="@dimen/action_bar_default_height"
             android:background="@color/blueish"
